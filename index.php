@@ -176,6 +176,7 @@
 			<li><a href="https://twitter.com/jasonchandlr">Twitter</a></li>
 			<li><a href="http://instagram.com/surfstation">Instagram</a></li>
 			<!--<li><a href="https://foursquare.com/jasonchandlr">Foursquare</a></li>-->
+			<li><a href="https://github.com/surfstationcc">Github</a></li>
 		</ul>
 
 <?php
