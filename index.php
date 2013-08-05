@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 	<title>Surfstation</title>
@@ -173,7 +173,7 @@
 		<ul>
 			<li><a href="http://blog.surfstation.cc/">Blog</a></li>
 			<li><a href="http://scrap.surfstation.cc/">Tumblr</a></li>
-			<li><a href="https://twitter.com/jasonchandlr">Twitter</a></li>
+			<li><a href="https://twitter.com/surfstationcc">Twitter</a></li>
 			<li><a href="http://instagram.com/surfstation">Instagram</a></li>
 			<!--<li><a href="https://foursquare.com/jasonchandlr">Foursquare</a></li>-->
 			<li><a href="https://github.com/surfstationcc">Github</a></li>
@@ -181,7 +181,7 @@
 
 <?php
 //取得するRSSのURL
-$rss = array('http://blog.surfstation.cc/feed', 'http://scrap.surfstation.cc/rss', 'http://twittergoodrss.herokuapp.com/68356123416599783907/jasonchandlr', 'http://rss.stagram.tk/feed.php?id=143365&username=surfstation&rss');
+$rss = array('http://blog.surfstation.cc/feed', 'http://scrap.surfstation.cc/rss', 'http://twittergoodrss.herokuapp.com/68356123416599783907/surfstationcc', 'http://rss.stagram.tk/feed.php?id=143365&username=surfstation&rss');
 
 //2番目は1つのRSSから読み込む件数、3番目は実際に表示する件数
 rssReader($rss, 10, 10);
