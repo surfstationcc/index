@@ -171,9 +171,9 @@
 	<div id="content">
 		<!--<h2>Activities</h2>-->
 		<ul>
-			<li><a href="http://blog.surfstation.co/">Blog</a></li>
-			<li><a href="http://scrap.surfstation.co/">Tumblr</a></li>
-			<li><a href="https://twitter.com/surfstationco">Twitter</a></li>
+			<li><a href="http://blog.surfstation.cc/">Blog</a></li>
+			<li><a href="http://scrap.surfstation.cc/">Tumblr</a></li>
+			<li><a href="https://twitter.com/surfstationcc">Twitter</a></li>
 			<li><a href="http://instagram.com/surfstation">Instagram</a></li>
 			<!--<li><a href="https://foursquare.com/jasonchandlr">Foursquare</a></li>-->
 			<li><a href="https://github.com/surfstationcc">Github</a></li>
@@ -181,7 +181,7 @@
 
 <?php
 //取得するRSSのURL
-$rss = array('http://blog.surfstation.co/feed', 'http://scrap.surfstation.co/rss', 'http://twittergoodrss.herokuapp.com/68356123416599783907/surfstationco', 'http://rss.stagram.tk/feed.php?id=143365&username=surfstation&rss');
+$rss = array('http://blog.surfstation.cc/feed', 'http://scrap.surfstation.cc/rss', 'http://twittergoodrss.herokuapp.com/68356123416599783907/surfstationcc', 'http://rss.stagram.tk/feed.php?id=143365&username=surfstation&rss');
 
 //2番目は1つのRSSから読み込む件数、3番目は実際に表示する件数
 rssReader($rss, 10, 10);
@@ -250,8 +250,8 @@ function rssReader($rss, $read_count=0, $view_count=0) {
 
 		<h2>About</h2>
 		<dl class="about clearfix">
-			<dd class="icon"><a href="https://twitter.com/surfstationco"><img src="http://furyu.nazo.cc/twicon/surfstationco/original" width="73" height="73" /></a></dd>
-			<dd class="content"><span>I am surfstation. Tech enthusiast, web design freak, amazed by anything mobile.</span></dd>
+			<dd class="icon"><img src="http://furyu.nazo.cc/twicon/jasonchandlr/original" width="73" height="73" /></dd>
+			<dd class="content"><span>I am Jason Chandler aka surfstation. Tech enthusiast, web design freak, amazed by anything mobile.</span></dd>
 		</dl>
 		
 	</div>
@@ -260,15 +260,16 @@ function rssReader($rss, $read_count=0, $view_count=0) {
 	</div>
 </div>
 <!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-43443737-1', 'surfstation.co');
-  ga('send', 'pageview');
-
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22339599-1']);
+  _gaq.push(['_setDomainName', 'surfstation.cc']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 </script>
 </body>
 </html>
